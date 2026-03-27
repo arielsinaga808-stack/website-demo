@@ -1,1 +1,37 @@
+body {
+  background: #0b0014;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
 
+header {
+  background: purple;
+  padding: 15px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  background: purple;
+  color: white;
+  border: none;
+}
+
+.slot {
+  font-size: 50px;
+  margin: 20px;
+}
+
+.slot span {
+  margin: 10px;
+}
