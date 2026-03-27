@@ -1,9 +1,14 @@
 // CONFIG FIREBASE (GANTI DENGAN PUNYA KAMU)
 const firebaseConfig = {
-  apiKey: "API_KEY",
-  authDomain: "PROJECT.firebaseapp.com",
-  projectId: "PROJECT_ID"
+  apiKey: "AIzaSyAQ4k1EiLuYa0SeLtjt1sok3qz8ZBUxnWw",
+  authDomain: "panel-master-ab244.firebaseapp.com",
+  projectId: "panel-master-ab244",
+  storageBucket: "panel-master-ab244.firebasestorage.app",
+  messagingSenderId: "184371195215",
+  appId: "1:184371195215:web:d55a6f7bc60fb8ccd5a93a",
+  measurementId: "G-7L4BRSH7G4"
 };
+
 
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
