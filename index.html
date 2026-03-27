@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Slot Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+  <h1>DEMO SLOT</h1>
+  <div id="user-info"></div>
+</header>
+
+<div class="container">
+
+  <!-- LOGIN -->
+  <div id="auth">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="register()">Daftar</button>
+    <button onclick="login()">Login</button>
+  </div>
+
+  <!-- GAME -->
+  <div id="game" style="display:none;">
+    <h2>Coin: <span id="coin">0</span></h2>
+
+    <div class="slot">
+      <span id="s1">❓</span>
+      <span id="s2">❓</span>
+      <span id="s3">❓</span>
+    </div>
+
+    <button onclick="spin()">SPIN</button>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+</div>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
